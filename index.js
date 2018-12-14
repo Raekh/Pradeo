@@ -62,3 +62,12 @@ addButton.addEventListener("click", function(){
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded",function(){
+    // document.getElementById('newBody').innerHTML = TemplateEngine(document.documentElement.innerHTML, {  
+    //     skills : ['js','css','php']
+    // });
+    // console.log( TemplateEngine("<input type='text' id='search' placeholder='Search for user' /><br><table border='' id='userTable'><tr class='notRemovable'><th>ID</th><th>LOGIN</th></tr><% this.skills.join(' ') %></table>", {  
+    //     skills : ['js','css','php']
+    // }));
+})
