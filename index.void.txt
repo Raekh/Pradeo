@@ -1,0 +1,1 @@
+ <input type="text" id="search" placeholder="Search for user" /><br><table border="" id="userTable"><tr class="notRemovable"><th>ID</th><th>LOGIN</th></tr><% this.skills.join(' ') %></table>
