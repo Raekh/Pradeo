@@ -1,7 +1,7 @@
 <?php
 
 class DB{
-    public function engine(){
+    public static function engine(){
         $host = 'localhost';
         $db   = 'test';
         $user = 'root';
